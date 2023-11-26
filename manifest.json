@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "convertDateExtension",
+    "version": "1.0",
+    "description": "An extension to convert a foreign date to a Hebrew date!",
+    "icons": {
+        "48": "icon.png"
+    },
+    "action": {
+        "default_title": "Click Me",
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://hebcal.com/converter/*"
+    ]
+}

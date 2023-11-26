@@ -1,0 +1,66 @@
+body {
+    min-width: 500px;
+    text-align: -webkit-center;
+    direction: rtl;
+}
+
+#s1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: rgb(158, 3, 255) solid 2px;
+    width: 182px;
+    height: 117px;
+    padding-bottom: 17px;
+}
+
+#s2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+#s3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+#convertedDate {
+    flex-grow: 0.35;
+    flex-shrink: 1;
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(158, 3, 255);
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+}
+
+
+h3 {
+    font-size: 13px;
+    color: black;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    background: rgb(158, 3, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
